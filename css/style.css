@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.encabezado img {
+    transition: 0.1s ease-in-out ;
+}
+
+.encabezado img:hover {
+    transform: rotate(180deg);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.menu a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: sans-serif ;
+}
+
+.menu a:hover {
+    color: crimson;
+}
+
+.btnContactos {
+    background-color: crimson;
+    color: white !important;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.btnContactos:hover {
+    background-color: white;
+    color: crimson !important;
+}
+
+.Ayestaras {
+    transition: 0.5s ease-in-out;
+    padding-bottom: 3px;
+    
+}
+
+.Ayestaras:hover {
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, black, white)1;
+}
+
+.carousel-inner img {
+    height: 85vh;
+
+}
+
+.contenedor {
+    max-width: 1100px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    gap: 25px;
+    text-align: center;
+}
+
+.Tarjetas {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px #2C3947;
+    padding: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+.Tarjetas img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.Tarjetas h1 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: bold;
+    color: #2C3947;
+}
+
+.Tarjetas:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 20px #2C3947; 
+    background-color: crimson; 
+}
+
+.Tarjetas:hover p,.Tarjetas:hover h1 {
+    color: white !important;
+}
+
+
+
+.Tarjetas h2 {
+    color: green;
+    font-size: 25px;
+}
+
+.Tarjetas h3 {
+    padding: 10px;
+    font-size: 20px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 17px #2C3947;
+    width: 150px;
+    margin: 10px auto;
+}
+
+.Tarjetas p {
+    font-size: 20px;
+    line-height: 25px;
+    color: black;
+}
+
+.contenedor_form {
+    margin: 50px auto;
+    width: 500px;
+    height: 100px;
+    box-shadow: 2px 2px 20px black;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.contenedor_form label:hover{
+    color: crimson;
+}
+
+.contenedor_form input {
+    border-radius: 25px;
+    padding: 10px;
+    border: transparent;
+    box-shadow: 2px 2px 20px #2C3947;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+}
+
+.contenedor_form input:hover {
+    box-shadow: 2px 2px 20px crimson;
+}
+
+.contenedor_form button {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    padding: 15px;
+    border: transparent;
+    box-shadow: 2px 2px 15px #2C3947;
+    transition: 0.2s ease-in-out;
+}
+
+.contenedor_form button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to top, crimson, rgb(238, 20, 64));
+    color: aliceblue;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.info img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.info p {
+    line-height: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.redes {
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.redes img {
+    width: 160px;
+    height: 160px;
+    
+}
+
+.btnfav {
+    border: none;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+    margin: 0px auto;
+}
+
+.btnfav:hover {
+    transform: scale(2.0);
+    
+}
+
+@media (max-width: 750px) {
+    .encabezado {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .encabezado img {
+        height: 100px;
+        margin: 5px auto;
+    }
+    .menu {
+        flex-direction: flex;
+        margin: 10px auto;
+    }
+    .menu a {
+        margin: 0px 20px;
+        font-size: 20px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .info p {
+        font-size: 18px;
+        line-height: 50px;
+    }
+    .redes {
+        text-align: center;
+        width: 10%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .redes img {
+        height: 50px;
+        width: 50px;
+    }
+}
