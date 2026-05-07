@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 .encabezado {
     height: 85px;
     display: flex;
     justify-content: space-between;
-
+    
 }
 
 .encabezado img {
