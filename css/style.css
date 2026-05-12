@@ -60,7 +60,7 @@ body {
 .Tarjetas {
     margin: 30px;
     width: 350px;
-    height: 475px;
+    height: 500px;
     align-items: center;
     background-color: #201F1D;
     padding: 15px;
@@ -126,10 +126,12 @@ body {
 }
 
 .Precio {
+    display: flex;
     background-color: #0B0B0C;
     border-radius: 15px;
     padding: 4px;
-    width: 80px;
+    width: 100%;
+    justify-content: space-between;
     color: rgb(29, 143, 29);
     margin-top: 15px;
 }

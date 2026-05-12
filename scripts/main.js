@@ -16,11 +16,11 @@ function MostrarProductos(lista) {
                 <p>${i.descripción}</p>
             </div>
             <div>
-                <div>
-                    <p class="Precio">$ ${i.precio}</p>
-                    <p>${i.stock}</p>
+                <div class="Precio">
+                    <p>$ ${i.precio}</p>
+                    <p>Stock: ${i.stock}</p>
                 </div>
-                <button onclick="agregarFavoritos()" class="btnfav">❤️</button>
+                
             <div>
 
         `
