@@ -15,7 +15,14 @@ function MostrarProductos(lista) {
             <div class="Tarjeta-Texto">
                 <p>${i.descripción}</p>
             </div>
-            <p class="Precio">$ ${i.precio}</p>
+            <div>
+                <div class="Precio">
+                    <p>$ ${i.precio}</p>
+                    <p>Stock: ${i.stock}</p>
+                </div>
+                
+            <div>
+
         `
         div.appendChild(nuevodiv)
     });
