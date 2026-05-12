@@ -1,7 +1,7 @@
 # Website Funko Pop Tematica Resident Evil
 - Colaboradores:
-    1 Joaquín Paz (FrontEnd)
-    2 Daniel Alessandro Cafferata (BackEnd)
+    - Joaquín Paz (FrontEnd)
+    - Daniel Alessandro Cafferata (BackEnd)
 - Curso 6°3
 - Grupo de Taller: 6.8
 - Materia: Labotatorio de Diseño Web Estatico
