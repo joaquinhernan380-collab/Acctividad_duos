@@ -15,7 +15,14 @@ function MostrarProductos(lista) {
             <div class="Tarjeta-Texto">
                 <p>${i.descripción}</p>
             </div>
-            <p class="Precio">$ ${i.precio}</p>
+            <div>
+                <div>
+                    <p class="Precio">$ ${i.precio}</p>
+                    <p>${i.stock}</p>
+                </div>
+                <button onclick="agregarFavoritos()" class="btnfav">❤️</button>
+            <div>
+
         `
         div.appendChild(nuevodiv)
     });
